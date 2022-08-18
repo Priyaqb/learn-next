@@ -2,6 +2,7 @@ import Link from 'next/link'
 import categoryList from "../../categories"
 import memberList from "../../members"
 import { getDenormalizedCategories } from "../../utils"
+import BackNav from '../../components/back/back'
 
 
 
@@ -11,9 +12,7 @@ export default function membersList({ category }) {
   return (
     <>
     <header>
-        <Link href="/">
-          <a>Home</a>
-        </Link>
+      <BackNav />
     </header>
     <ul>
       {category.members.map((member, index) => (
