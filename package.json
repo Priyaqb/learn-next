@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npx tailwindcss -i ./styles/globals.css -o ./dist/output.css --minify",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build-css": "npx tailwindcss -i ./styles/globals.css -o ./dist/output.css --minify" 
+    "lint": "next lint"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
