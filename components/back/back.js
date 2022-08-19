@@ -7,11 +7,9 @@ export default function backNav({ member }) {
 
   return (
     <>
-    <header>
-        <button type="button" onClick={() => router.back()} className="pb-2 text-dark-blue font-bold">
-          <i class="fa fa-arrow-left" aria-hidden="true"></i> Back
-        </button>
-    </header>
+      <button type="button" onClick={() => router.back()} className="pb-2 text-dark-blue font-bold">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i> Back
+      </button>
     </>
   )
 }
