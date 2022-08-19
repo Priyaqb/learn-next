@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-      domains: ['images.unsplash.com', 'www.goodmorningimagesdownload.com', 'i.pinimg.com'],
+      domains: ['1.bp.blogspot.com', '308286-943399-raikfcquaxqncofqfm.stackpathdns.com', 'i.pinimg.com'],
   },
 }
 

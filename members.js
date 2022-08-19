@@ -5,7 +5,7 @@ const members = [
     "project": "JLO",
     "category": "CSS",
     "slug": "priya_00",
-    "imgSrc": "https://images.unsplash.com/photo-1484800089236-7ae8f5dffc8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z2lybCUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80"
+    "imgSrc": "https://1.bp.blogspot.com/-gz3ECbOByh0/YSyMST7rT_I/AAAAAAAAWYs/stFJ90JJpx0v3ewmmK6HMYiUmIvpNMriACLcBGAsYHQ/s1041/girl-cartoon-cute-dp-images%2B%25281%2529.jpg"
   },
   {
     "id": 1,
@@ -13,7 +13,7 @@ const members = [
     "project": "test1",
     "category": "CSS",
     "slug": "shahina_01",
-    "imgSrc": "http://www.goodmorningimagesdownload.com/wp-content/uploads/2020/07/Beautiful-Profile-Images-1.jpg"
+    "imgSrc": "https://308286-943399-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2022/04/whatsapp-dp-stylish-killer-attitude-cute-cartoon-girl.jpeg"
   },
   {
     "id": 2,

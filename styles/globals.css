@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .responsive-img{
+      width: 100% !important;
+      height: unset !important;
+      object-fit: cover;
+    }
+}

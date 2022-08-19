@@ -16,14 +16,15 @@ export default function memberDetail({ member }) {
         <Title>{member.name}</Title>
       </header>
       <div>
+        <div style={{ height: 'auto', width: '100%' }}>
         <Image
           src={member.imgSrc}
           alt={member.name}
           width = {500}
           height = {500}
-          layout = 'responsive'
-          className = 'pb-2'
+          className = 'pb-2 h-auto responsive-img'
         />
+        </div>
         <p className="flex flex-row">
           <span className="pr-2 block">Stream:</span>
           <span>{member.category}</span>
