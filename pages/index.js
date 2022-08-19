@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import categoryList from "../categories"
+import Title from "../components/title/title"
 
 
 
@@ -7,10 +8,7 @@ import categoryList from "../categories"
 export default function Home({ Categories }) {
   return (
     <>
-      <h3 className="text-2xl text-center font-semibold 
-            bg-gradient-to-r bg-clip-text  text-transparent 
-            from-black via-black-400 to-black-100
-            animate-text">TEAMS</h3>
+      <Title>TEAMS</Title>
       <ul>
         {Categories.map((category, index) => (
           <li key={index}>

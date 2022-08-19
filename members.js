@@ -2,7 +2,6 @@ const members = [
   {
     "id": 0,
     "name": "Priya",
-    "experience": "13",
     "project": "JLO",
     "category": "CSS",
     "slug": "priya_00",
@@ -11,7 +10,6 @@ const members = [
   {
     "id": 1,
     "name": "Shahina",
-    "experience": "xx",
     "project": "test1",
     "category": "CSS",
     "slug": "shahina_01",
@@ -20,7 +18,6 @@ const members = [
   {
     "id": 2,
     "name": "Bibhu",
-    "experience": "xx",
     "project": "test3",
     "category": "React",
     "slug": "bibhu_02",

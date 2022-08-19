@@ -3,6 +3,7 @@ import categoryList from "../../categories"
 import memberList from "../../members"
 import { getDenormalizedCategories } from "../../utils"
 import BackNav from '../../components/back/back'
+import Title from "../../components/title/title"
 
 
 
@@ -13,6 +14,7 @@ export default function membersList({ category }) {
     <>
     <header>
       <BackNav />
+      <Title>MEMBERS</Title>
     </header>
     <ul>
       {category.members.map((member, index) => (

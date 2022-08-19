@@ -2,6 +2,7 @@ import Link from 'next/link'
 import memberList from "../../members"
 import BackNav from '../../components/back/back'
 import Image from 'next/image'
+import Title from "../../components/title/title"
 
 
 
@@ -10,7 +11,10 @@ export default function memberDetail({ member }) {
 
   return (
     <>
-      <BackNav />
+      <header className="pb-2">
+        <BackNav />
+        <Title>{member.name}</Title>
+      </header>
       <div>
         <Image
           src={member.imgSrc}
@@ -20,10 +24,6 @@ export default function memberDetail({ member }) {
           layout = 'responsive'
           className = 'pb-2'
         />
-        <p className="flex flex-row">
-          <span className="pr-2 block">Experience:</span>
-          <span>{member.experience}</span>
-        </p>
         <p className="flex flex-row">
           <span className="pr-2 block">Stream:</span>
           <span>{member.category}</span>
