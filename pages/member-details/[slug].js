@@ -26,11 +26,11 @@ export default function memberDetail({ member }) {
         />
         </div>
         <p className="flex flex-row">
-          <span className="pr-2 block">Stream:</span>
+          <span className="pr-2 block font-bold text-black">Stream:</span>
           <span>{member.category}</span>
         </p>
         <p className="flex flex-row">
-          <span className="pr-2 block">Project:</span>
+          <span className="pr-2 block font-bold text-black">Project:</span>
           <span>{member.project}</span>
         </p>
       </div>
